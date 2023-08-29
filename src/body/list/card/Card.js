@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card({ imageSrc, title, description, otherInfo }) {
   return(
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden flex mx-60">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden flex mx-60 my-10">
 
       {/* Bagian kiri dengan gambar */}
       <div className="w-1/3">
