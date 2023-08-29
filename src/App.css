@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  @apply bg-lime-50 text-slate-600
+}
