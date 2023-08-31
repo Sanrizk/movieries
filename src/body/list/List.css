@@ -1,0 +1,11 @@
+.container-pagination {
+  @apply mx-auto w-max mt-28
+}
+
+.button-pagination {
+  @apply mx-2 p-3 rounded-lg hover:bg-blue-300 dark:hover:bg-emerald-900 font-bold
+}
+
+.button-prevnext {
+  @apply mx-2 bg-blue-200 p-3 rounded-lg hover:bg-blue-300 font-bold dark:bg-emerald-950 dark:hover:bg-emerald-900
+}

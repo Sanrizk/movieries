@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import ReactDOM from 'react-dom/client'
+import './Heading.css'
 
 function Heading() {
   const [darkMode, setDarkMode] = useState(false)
@@ -15,9 +15,9 @@ function Heading() {
 
   return (
     <>
-      <div className='bg-blue-200 w-full h-32 flex justify-evenly dark:bg-emerald-950'>
-        <div className='pt-10 w-2/3 py-6 text-4xl font-bold'>Movieries.tv</div>
-        <div className='pt-10 text-2xl'>
+      <div className='heading'>
+        <div className='title'>Movieries.tv</div>
+        <div className='button-icon'>
           <button onClick={onClickMode}><i ref={buttonDarkMode} className="fa-solid fa-sun"></i></button>        
         </div>
       </div>

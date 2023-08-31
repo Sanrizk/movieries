@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: ['class'],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        'min35px': '-35px',
+      },
+    },
   },
   plugins: [],
 }

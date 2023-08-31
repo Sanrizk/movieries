@@ -1,0 +1,12 @@
+.heading {
+  @apply bg-blue-200 w-full h-32 flex justify-evenly dark:bg-emerald-950
+}
+
+.title {
+  @apply pt-10 w-2/3 py-6 text-4xl font-bold
+}
+
+.button-icon {
+  @apply pt-10 text-2xl
+}
+
