@@ -32,6 +32,7 @@ export default function Body() {
     <div className='mx-28'>
       <Search value={search} change={handleChangeSearch} onClick={onSearchClick} />
       <List movies={movies} />
+      <div className='h-80'></div>
     </div>
   )
 }
