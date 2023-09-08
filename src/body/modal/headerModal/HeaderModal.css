@@ -1,0 +1,7 @@
+.header-modal {
+  @apply flex justify-between mx-6 my-4
+}
+
+.title__header-modal {
+  @apply font-bold text-xl
+}

@@ -1,0 +1,7 @@
+.footer-modal {
+  @apply mx-6 my-4 flex justify-end
+}
+
+.btn-close__footer-modal {
+  @apply rounded-md bg-lime-50 hover:bg-lime-100 font-medium py-2 px-4 ease-in duration-100 dark:bg-emerald-700 hover:dark:bg-emerald-800
+}

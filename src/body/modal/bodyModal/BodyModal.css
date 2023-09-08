@@ -1,0 +1,11 @@
+.body-modal {
+  @apply mx-6 my-4 flex flex-col
+}
+
+.col-first {
+  @apply flex justify-between
+}
+
+.col-sec {
+  @apply my-4
+}

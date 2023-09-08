@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Card from "./card/Card";
 import './List.css'
 
-export default function List({ movies, startPage }) {
+export default function List({ movies, onClickModal }) {
 
   const [currentPage, setCurrentPage] = useState(1)
 
@@ -46,10 +46,12 @@ export default function List({ movies, startPage }) {
           dataMovies.map((item, index) => (
             <Card
               key={index}
+              dataId={item.imdbID}
               imageSrc={item.Poster}
               title={item.Title}
               year={item.Year}
               type={item.Type}
+              onClickModal={onClickModal}
             />
           ))
         }
